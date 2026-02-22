@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Amir Hamza | Full Stack Developer & Machine Learning Engineer</title>
+    <meta name="title" content="Amir Hamza | Full Stack Developer & Machine Learning Engineer">
+    <meta name="description" content="Amir Hamza is a Full Stack Developer & Machine Learning Engineer specializing in web development, React, Python, TensorFlow, and AI solutions. View portfolio and projects.">
+    <meta name="keywords" content="Amir Hamza, Full Stack Developer, Machine Learning Engineer, Web Developer, React, Python, TensorFlow, Portfolio, AI Developer, Freelance Developer">
+    <meta name="author" content="Amir Hamza">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="theme-color" content="#0ea5e9">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://amirhamza-portfolio.com/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://amirhamza-portfolio.com/">
+    <meta property="og:title" content="Amir Hamza | Full Stack Developer & ML Engineer">
+    <meta property="og:description" content="Full Stack Developer & Machine Learning Engineer specializing in web development, React, Python, TensorFlow, and AI solutions.">
+    <meta property="og:image" content="https://amirhamza-portfolio.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Amir Hamza Portfolio">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://amirhamza-portfolio.com/">
+    <meta property="twitter:title" content="Amir Hamza | Full Stack Developer & ML Engineer">
+    <meta property="twitter:description" content="Full Stack Developer & Machine Learning Engineer specializing in web development, React, Python, TensorFlow, and AI solutions.">
+    <meta property="twitter:image" content="https://amirhamza-portfolio.com/og-image.jpg">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Amir Hamza",
+        "url": "https://amirhamza-portfolio.com",
+        "jobTitle": "Full Stack Developer & Machine Learning Engineer",
+        "description": "Full Stack Developer and Machine Learning Engineer specializing in web development, React, Python, TensorFlow, and AI solutions.",
+        "sameAs": [
+            "https://github.com/amirhamza",
+            "https://linkedin.com/in/amirhamza",
+            "https://twitter.com/amirhamza"
+        ],
+        "knowsAbout": ["JavaScript", "React", "Python", "Machine Learning", "TensorFlow", "PHP", "MySQL", "Web Development"],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "New York",
+            "addressCountry": "USA"
+        },
+        "email": "mailto:amirhamza@example.com",
+        "telephone": "+1-234-567-890",
+        "image": "https://amirhamza-portfolio.com/images/profile.jpg"
+    }
+    </script>
+    
+    <!-- Profile Page Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Amir Hamza"
+        }
+    }
+    </script>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader-container">
+            <div class="loader-ring"></div>
+            <div class="loader-logo">AH</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="brand-text">Amir</span>
+                <span class="brand-dot">.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="toggler-line"></span>
+                <span class="toggler-line"></span>
+                <span class="toggler-line"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home"><span>01</span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about"><span>02</span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services"><span>03</span> Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills"><span>04</span> Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><span>05</span> Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><span>06</span> Contact</a></li>
+                </ul>
+                
+                <!-- Theme Switcher -->
+                <div class="theme-switcher">
+                    <button class="theme-btn" id="themeToggle" aria-label="Switch Theme">
+                        <i class="fas fa-palette"></i>
+                    </button>
+                    <div class="theme-dropdown" id="themeDropdown">
+                        <div class="theme-option" data-theme="ocean">
+                            <span class="theme-color" style="background: linear-gradient(135deg, #0ea5e9, #8b5cf6);"></span>
+                            <span>Ocean Blue</span>
+                        </div>
+                        <div class="theme-option" data-theme="purple">
+                            <span class="theme-color" style="background: linear-gradient(135deg, #a855f7, #ec4899);"></span>
+                            <span>Purple Passion</span>
+                        </div>
+                        <div class="theme-option" data-theme="green">
+                            <span class="theme-color" style="background: linear-gradient(135deg, #10b981, #14b8a6);"></span>
+                            <span>Green Nature</span>
+                        </div>
+                        <div class="theme-option" data-theme="sunset">
+                            <span class="theme-color" style="background: linear-gradient(135deg, #f97316, #f43f5e);"></span>
+                            <span>Sunset Orange</span>
+                        </div>
+                        <div class="theme-option" data-theme="rose">
+                            <span class="theme-color" style="background: linear-gradient(135deg, #f43f5e, #ec4899);"></span>
+                            <span>Rose Pink</span>
+                        </div>
+                        <div class="theme-option" data-theme="mono">
+                            <span class="theme-color" style="background: linear-gradient(135deg, #e2e8f0, #94a3b8);"></span>
+                            <span>Dark Mono</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Language Switcher -->
+                <div class="lang-switcher">
+                    <button class="lang-btn" id="langToggle" aria-label="Switch Language">
+                        <i class="fas fa-globe"></i>
+                        <span class="lang-current">EN</span>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <div class="lang-option" data-lang="en">
+                            <span class="lang-flag">🇺🇸</span>
+                            <span>English</span>
+                        </div>
+                        <div class="lang-option" data-lang="ur">
+                            <span class="lang-flag">🇵🇰</span>
+                            <span>اردو</span>
+                        </div>
+                        <div class="lang-option" data-lang="ar">
+                            <span class="lang-flag">🇸🇦</span>
+                            <span>العربية</span>
+                        </div>
+                        <div class="lang-option" data-lang="fr">
+                            <span class="lang-flag">🇫🇷</span>
+                            <span>Français</span>
+                        </div>
+                        <div class="lang-option" data-lang="es">
+                            <span class="lang-flag">🇪🇸</span>
+                            <span>Español</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#contact" class="nav-cta-btn">Let's Talk</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-lg-7">
+                    <div class="hero-content">
+                        <div class="availability-badge" data-aos="fade-down">
+                            <span class="pulse-dot"></span>
+                            <span data-i18n="available">Available for new opportunities</span>
+                        </div>
+                        
+                        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                            Hello, I'm <span class="text-gradient">Amir Hamza</span><br>
+                            Building <span class="text-gradient">Extraordinary</span><br>
+                            Digital Experiences
+                        </h1>
+                        
+                        <p class="hero-text" data-aos="fade-up" data-aos-delay="200">
+                            I'm <strong>Amir Hamza</strong> — a Full Stack Developer & Machine Learning Engineer 
+                            dedicated to building innovative solutions that transform ideas into powerful digital realities.
+                        </p>
+                        
+                        <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
+                            <a href="#projects" class="btn-main">
+                                <span data-i18n="exploreWork">Explore Work</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#contact" class="btn-alt">
+                                <span data-i18n="getInTouch">Get In Touch</span>
+                            </a>
+                        </div>
+                        
+                        <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+                            <div class="stat-block">
+                                <span class="stat-value" data-target="1">0</span>
+                                <span class="stat-label">Years<br>Experience</span>
+                            </div>
+                            <div class="stat-separator"></div>
+                            <div class="stat-block">
+                                <span class="stat-value" data-target="25">0</span>
+                                <span class="stat-label">Projects<br>Completed</span>
+                            </div>
+                            <div class="stat-separator"></div>
+                            <div class="stat-block">
+                                <span class="stat-value" data-target="50">0</span>
+                                <span class="stat-label">Happy<br>Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-5">
+                    <div class="hero-visual" data-aos="fade-left" data-aos-delay="300">
+                        <div class="image-showcase">
+                            <div class="image-frame">
+                                <img src="pic 1.png" alt="Amir Hamza - Full Stack Developer and Machine Learning Engineer - Professional Profile Photo" class="profile-img">
+                            </div>
+                            
+                            <div class="info-badge badge-1">
+                                <div class="badge-icon"><i class="fas fa-code"></i></div>
+                                <div class="badge-text">
+                                    <strong>Full Stack</strong>
+                                    <small>Developer</small>
+                                </div>
+                            </div>
+                            
+                            <div class="info-badge badge-2">
+                                <div class="badge-icon"><i class="fas fa-brain"></i></div>
+                                <div class="badge-text">
+                                    <strong>ML</strong>
+                                    <small>Engineer</small>
+                                </div>
+                            </div>
+                            
+                            <div class="years-badge">
+                                <span class="years-num">01+</span>
+                                <span class="years-text">Years<br>Exp.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-down">
+            <span data-i18n="scroll">Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-images" data-aos="fade-right">
+                        <div class="main-image">
+                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&h=700&fit=crop" alt="Amir Hamza - About Me - Professional Developer Portrait" class="main-image">
+                            <div class="image-accent"></div>
+                        </div>
+                        <div class="experience-box">
+                            <span class="exp-num">01+</span>
+                            <span class="exp-text">Years of<br>Excellence</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="about-details">
+                        <span class="section-tag" data-aos="fade-up" data-i18n="aboutMe">About Me</span>
+                        <h2 class="section-title" data-aos="fade-up" data-aos-delay="100" data-i18n-transform="transformingIdeas">
+                            Transforming Ideas Into <span class="text-gradient">Reality</span>
+                        </h2>
+                        <p class="about-desc" data-aos="fade-up" data-aos-delay="200">
+                            As a passionate Full Stack Developer and Machine Learning Engineer, I specialize in creating 
+                            robust web applications and intelligent AI solutions that drive business growth.
+                        </p>
+                        <p class="about-desc" data-aos="fade-up" data-aos-delay="300">
+                            My expertise spans across modern web technologies, backend development, and machine learning 
+                            algorithms. I believe in delivering solutions that not only meet but exceed expectations.
+                        </p>
+                        
+                        <div class="expertise-grid" data-aos="fade-up" data-aos-delay="400">
+                            <div class="expertise-item">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="webDev">Web Development</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="machineLearning">Machine Learning</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="dataAnalysis">Data Analysis</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i class="fas fa-check"></i>
+                                <span data-i18n="apiIntegration">API Integration</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#contact" class="btn-main" data-aos="fade-up" data-aos-delay="500">
+                            <span data-i18n="letsCollaborate">Let's Collaborate</span>
+                            <i class="fas fa-handshake"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-i18n="servicesTitle">Services</span>
+                <h2 class="section-title" data-i18n="whatIOffer">What I <span class="text-gradient">Offer</span></h2>
+                <p class="section-subtitle" data-i18n="deliveringExcellence">Delivering excellence through innovative digital solutions</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-number">01</div>
+                        <div class="service-icon-box">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Creating stunning, responsive websites and web applications using cutting-edge technologies like React, JavaScript, and PHP.</p>
+                        <div class="tech-pills">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-number">02</div>
+                        <div class="service-icon-box">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Machine Learning</h3>
+                        <p>Building intelligent ML models for predictions, classification, and data-driven insights using Python and TensorFlow.</p>
+                        <div class="tech-pills">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>ML</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-number">03</div>
+                        <div class="service-icon-box">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend Solutions</h3>
+                        <p>Developing powerful server-side applications, RESTful APIs, and database solutions for scalable systems.</p>
+                        <div class="tech-pills">
+                            <span>MySQL</span>
+                            <span>APIs</span>
+                            <span>Database</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-number">04</div>
+                        <div class="service-icon-box">
+                            <i class="fab fa-wordpress"></i>
+                        </div>
+                        <h3>WordPress Development</h3>
+                        <p>Creating custom WordPress websites, themes, plugins, and WooCommerce online stores.</p>
+                        <div class="tech-pills">
+                            <span>WordPress</span>
+                            <span>WooCommerce</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-box" data-aos="fade-up" data-aos-delay="500">
+                        <div class="service-number">05</div>
+                        <div class="service-icon-box">
+                            <i class="fab fa-figma"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive user interfaces and exceptional user experiences using Figma. Designing prototypes, wireframes, and modern visual designs.</p>
+                        <div class="tech-pills">
+                            <span>Figma</span>
+                            <span>UI Design</span>
+                            <span>UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-i18n="skillsTitle">Skills</span>
+                <h2 class="section-title" data-i18n="myExpertise">My <span class="text-gradient">Expertise</span></h2>
+                <p class="section-subtitle" data-i18n="technologies">Technologies I use to bring visions to life</p>
+            </div>
+            
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="skills-chart" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>React</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>Bootstrap</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>Tailwind CSS</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="skills-chart" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>PHP</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>Machine Learning</span>
+                                <span>78%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>MySQL</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-row">
+                            <div class="skill-info">
+                                <span>WordPress</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress-track">
+                                <div class="progress-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tech-tags" data-aos="fade-up" data-aos-delay="300">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                        <span>Bootstrap</span>
+                        <span>Tailwind</span>
+                        <span>PHP</span>
+                        <span>Python</span>
+                        <span>ML</span>
+                        <span>TensorFlow</span>
+                        <span>MySQL</span>
+                        <span>Git</span>
+                        <span>WordPress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-i18n="portfolio">Portfolio</span>
+                <h2 class="section-title" data-i18n="featuredProjects">Featured <span class="text-gradient">Projects</span></h2>
+                <p class="section-subtitle" data-i18n="projectsSubtitle">A showcase of my technical prowess and creativity</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="project-card tilt-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=500&fit=crop" alt="House Price Prediction Machine Learning Project - AI Model for Real Estate" loading="lazy">
+                            <div class="project-overlay">
+                                <span class="project-cat">Machine Learning</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>ML</span>
+                                <span>TensorFlow</span>
+                            </div>
+                            <h3>House Price Prediction</h3>
+                            <p>Intelligent ML model predicting property prices with high accuracy using regression algorithms.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="project-card tilt-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=500&fit=crop" alt="Personal Portfolio Website - Modern Responsive Web Design Project" loading="lazy">
+                            <div class="project-overlay">
+                                <span class="project-cat">Web Development</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                            <h3>Personal Portfolio</h3>
+                            <p>Modern, responsive portfolio with smooth animations and stunning visual effects.</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="project-card tilt-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=500&fit=crop" alt="School Management System - PHP MySQL Web Application" loading="lazy">
+                            <div class="project-overlay">
+                                <span class="project-cat">Web Application</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <h3>School Management System</h3>
+                            <p>Comprehensive school management with student records, grades, and attendance tracking.</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="project-card tilt-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=500&fit=crop" alt="E-Commerce Platform - React Node.js MongoDB Full Stack Application" loading="lazy">
+                            <div class="project-overlay">
+                                <span class="project-cat">Full Stack</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <h3>E-Commerce Platform</h3>
+                            <p>Feature-rich online store with cart, payments, and comprehensive admin panel.</p>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag" data-i18n="contactTitle">Contact</span>
+                <h2 class="section-title" data-i18n="letsConnect">Let's <span class="text-gradient">Connect</span></h2>
+                <p class="section-subtitle" data-i18n="contactSubtitle">Have a project in mind? Let's create something amazing together.</p>
+            </div>
+            
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <div class="contact-methods" data-aos="fade-right">
+                        <div class="contact-card-item">
+                            <div class="contact-icon-wrap">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <span data-i18n="emailMe">Email Me</span>
+                                <a href="mailto:amirhamza@example.com">hamzaaaamir007@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card-item">
+                            <div class="contact-icon-wrap">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <span data-i18n="callMe">Call Me</span>
+                                <a href="tel:++92 344 7340060">+92 344 7340060</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-card-item">
+                            <div class="contact-icon-wrap">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <span data-i18n="location">Location</span>
+                                <span data-i18n="pakistan">Pakistan, Peshawar</span>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links-wrap">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7">
+                    <form class="contact-form-box" id="contactForm" data-aos="fade-left">
+                        <div class="form-grid">
+                            <div class="input-group">
+                                <input type="text" class="form-input" placeholder="Your Name" data-i18n-placeholder="yourName" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" class="form-input" placeholder="Your Email" data-i18n-placeholder="yourEmail" required>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-input" placeholder="Subject" data-i18n-placeholder="subject" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea class="form-input" placeholder="Your Message" data-i18n-placeholder="yourMessage" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-main">
+                            <span data-i18n="sendMessage">Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="brand-text">Amir<span class="brand-dot">.</span></a>
+                    <p data-i18n="footerDesc">Full Stack Developer & ML Engineer</p>
+                </div>
+                
+                <div class="footer-nav">
+                    <a href="#home" data-i18n="home">Home</a>
+                    <a href="#about" data-i18n="about">About</a>
+                    <a href="#services" data-i18n="services">Services</a>
+                    <a href="#projects" data-i18n="projects">Projects</a>
+                    <a href="#contact" data-i18n="contact">Contact</a>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="copyright">&copy; 2024 Amir Hamza. Crafted with passion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Particle Background Canvas -->
+    <canvas id="particles-canvas"></canvas>
+    
+    <!-- Fixed WhatsApp Button -->
+    <a href="https://wa.me/923447340060?text=Hi%20Amir,%20I%20visited%20your%20portfolio!" 
+       class="whatsapp-fixed" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- AI Chatbot -->
+    <div class="chatbot-widget" id="chatbot">
+        <button class="chatbot-toggle" id="chatbotToggle" onclick="document.getElementById('chatbotWindow').classList.toggle('show')">
+            <i class="fas fa-robot"></i>
+            <span class="chatbot-notification" id="chatbotNotification">1</span>
+        </button>
+        <div class="chatbot-window" id="chatbotWindow">
+            <div class="chatbot-header">
+                <div class="chatbot-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="chatbot-title">
+                    <span>AI Assistant</span>
+                    <small>Online now</small>
+                </div>
+                <button class="chatbot-close" id="chatbotClose" onclick="document.getElementById('chatbotWindow').classList.remove('show')"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="chatbot-messages" id="chatbotMessages">
+                <div class="chatbot-message bot">
+                    <div class="message-content">
+                        <p>Hello! 👋 I'm Amir's AI assistant. How can I help you today?</p>
+                    </div>
+                </div>
+                <!-- Quick Reply Buttons -->
+                <div class="quick-replies">
+                    <button class="quick-reply-btn" onclick="sendQuickReply('projects')">
+                        <i class="fas fa-code"></i> Projects
+                    </button>
+                    <button class="quick-reply-btn" onclick="sendQuickReply('skills')">
+                        <i class="fas fa-tools"></i> Skills
+                    </button>
+                    <button class="quick-reply-btn" onclick="sendQuickReply('availability')">
+                        <i class="fas fa-clock"></i> Availability
+                    </button>
+                    <button class="quick-reply-btn" onclick="sendQuickReply('contact')">
+                        <i class="fas fa-envelope"></i> Contact
+                    </button>
+                </div>
+            </div>
+            <div class="chatbot-input" id="chatbotInputArea">
+                <input type="text" id="chatbotInput" placeholder="Type your message...">
+                <button id="chatbotSend" onclick="sendChatMessage()"><i class="fas fa-paper-plane"></i></button>
+            </div>
+            <div class="chatbot-form" id="chatbotForm" style="display: none;">
+                <div class="form-group">
+                    <input type="text" id="chatbotName" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="chatbotEmail" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="chatbotMessage" placeholder="Your Message" rows="3" required></textarea>
+                </div>
+                <button class="chatbot-submit" id="chatbotSubmit">Send Message</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="successModal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Message Sent!</h3>
+            <p>Thank you for contacting me. I'll get back to you soon.</p>
+            <button class="modal-close-btn" onclick="closeModal()">OK</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("wxG-iY1HVLHtIK0Rq");
+        })();
+    </script>
+    <script src="script.js"></script>
+    <script>
+        // Ensure chatbot toggle works properly
+        document.addEventListener('DOMContentLoaded', function() {
+            var chatbotToggle = document.getElementById('chatbotToggle');
+            var chatbotWindow = document.getElementById('chatbotWindow');
+            
+            if (chatbotToggle && chatbotWindow) {
+                chatbotToggle.addEventListener('click', function() {
+                    chatbotWindow.classList.toggle('show');
+                });
+            }
+        });
+        
+        function sendQuickReply(topic) {
+            const messages = document.getElementById('chatbotMessages');
+            
+            // Add user message
+            const userMessage = document.createElement('div');
+            userMessage.className = 'chatbot-message user';
+            userMessage.innerHTML = '<div class="message-content"><p>' + getTopicQuestion(topic) + '</p></div>';
+            messages.appendChild(userMessage);
+            
+            // Remove quick replies after selection
+            const quickReplies = messages.querySelector('.quick-replies');
+            if (quickReplies) quickReplies.style.display = 'none';
+            
+            messages.scrollTop = messages.scrollHeight;
+            
+            // Bot response
+            setTimeout(function() {
+                var response = getBotResponse(topic);
+                var showWhatsappBtn = response.showWhatsapp;
+                
+                var responseHtml = '<div class="chatbot-message bot"><div class="message-content"><p>' + response.message + '</p></div></div>';
+                
+                if (showWhatsappBtn) {
+                    responseHtml += '<div class="chatbot-message bot"><div class="message-content"><a href="https://wa.me/923447340060?text=Hi%20Amir,%20I%20need%20a%20quote%20for%20your%20services" target="_blank" class="whatsapp-chat-btn"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a></div></div>';
+                }
+                
+                messages.innerHTML += responseHtml;
+                messages.scrollTop = messages.scrollHeight;
+                
+                // Add quick replies back
+                addQuickReplies();
+            }, 500);
+        }
+        
+        function getTopicQuestion(topic) {
+            switch(topic) {
+                case 'projects': return 'Tell me about your projects';
+                case 'skills': return 'What are your skills?';
+                case 'availability': return 'What is your availability?';
+                case 'contact': return 'How can I contact you?';
+                default: return topic;
+            }
+        }
+        
+        function getBotResponse(topic) {
+            switch(topic) {
+                case 'projects':
+                    return {
+                        message: "Amir has completed <strong>25+ projects</strong> including:\n\n🏠 <strong>House Price Prediction</strong> - ML model\n💼 <strong>Personal Portfolio</strong> - This website!\n🏫 <strong>School Management System</strong>\n🛒 <strong>E-Commerce Platform</strong>\n📱 <strong>Mobile Apps</strong>\n\nWant to see more details?",
+                        showWhatsapp: false
+                    };
+                case 'skills':
+                    return {
+                        message: "Amir's technical skills:\n\n💻 <strong>Frontend:</strong> HTML, CSS, JavaScript, React, Bootstrap\n⚙️ <strong>Backend:</strong> PHP, Python, Node.js\n🗄️ <strong>Database:</strong> MySQL, MongoDB\n🤖 <strong>ML/AI:</strong> TensorFlow, Python, Data Analysis\n🎨 <strong>Design:</strong> Figma, UI/UX Design\n\nNeed more details about any skill?",
+                        showWhatsapp: false
+                    };
+                case 'availability':
+                    return {
+                        message: "⏰ <strong>Availability Information:</strong>\n\n✅ <strong>Currently Available</strong> for new projects!\n\n🕐 <strong>Response Time:</strong> Within 24 hours\n📅 <strong>Working Hours:</strong> 9 AM - 10 PM (PKT)\n🌍 <strong>Time Zone:</strong> Pakistan (GMT+5)\n\nI can help you with urgent projects! Let's discuss on WhatsApp.",
+                        showWhatsapp: true
+                    };
+                case 'contact':
+                    return {
+                        message: "📧 <strong>Email:</strong> hamzaaaamir007@gmail.com\n📞 <strong>Phone:</strong> +92 344 7340060\n📍 <strong>Location:</strong> Pakistan, Peshawar\n\nPreferred method: WhatsApp for quick responses!",
+                        showWhatsapp: true
+                    };
+                default:
+                    return { message: "I'm here to help! Ask me about services, skills, projects, or pricing.", showWhatsapp: false };
+            }
+        }
+        
+        function addQuickReplies() {
+            const messages = document.getElementById('chatbotMessages');
+            // Remove existing quick replies first
+            const existing = messages.querySelector('.quick-replies');
+            if (existing) existing.remove();
+            
+            const quickReplies = document.createElement('div');
+            quickReplies.className = 'quick-replies';
+            quickReplies.innerHTML = `
+                <button class="quick-reply-btn" onclick="sendQuickReply('projects')">
+                    <i class="fas fa-code"></i> Projects
+                </button>
+                <button class="quick-reply-btn" onclick="sendQuickReply('skills')">
+                    <i class="fas fa-tools"></i> Skills
+                </button>
+                <button class="quick-reply-btn" onclick="sendQuickReply('availability')">
+                    <i class="fas fa-clock"></i> Availability
+                </button>
+                <button class="quick-reply-btn" onclick="sendQuickReply('contact')">
+                    <i class="fas fa-envelope"></i> Contact
+                </button>
+            `;
+            messages.appendChild(quickReplies);
+            messages.scrollTop = messages.scrollHeight;
+        }
+        
+        function sendChatMessage() {
+            const input = document.getElementById('chatbotInput');
+            const message = input.value.trim();
+            if (!message) return;
+            
+            const messages = document.getElementById('chatbotMessages');
+            
+            // Add user message
+            messages.innerHTML += '<div class="chatbot-message user"><div class="message-content"><p>' + message + '</p></div></div>';
+            input.value = '';
+            messages.scrollTop = messages.scrollHeight;
+            
+            // Hide quick replies while chatting
+            const quickReplies = messages.querySelector('.quick-replies');
+            if (quickReplies) quickReplies.style.display = 'none';
+            
+            // Bot response with pricing → WhatsApp redirect
+            setTimeout(function() {
+                var lowerMsg = message.toLowerCase();
+                var response = "I'm here to help! Ask me about services, skills, projects, or pricing.";
+                var showWhatsappBtn = false;
+                
+                // Availability questions
+                if (lowerMsg.includes('avail') || lowerMsg.includes('time') || lowerMsg.includes('when') || lowerMsg.includes('schedule') || lowerMsg.includes('hour')) {
+                    response = "⏰ <strong>Currently Available</strong> for new projects!\n\n🕐 Response Time: Within 24 hours\n📅 Working Hours: 9 AM - 10 PM (PKT)\n\nLet's discuss your project on WhatsApp!";
+                    showWhatsappBtn = true;
+                }
+                // Pricing questions → Direct to WhatsApp
+                else if (lowerMsg.includes('price') || lowerMsg.includes('cost') || lowerMsg.includes('budget') || lowerMsg.includes(' quotation') || lowerMsg.includes('quote') || lowerMsg.includes('fee') || lowerMsg.includes('charge')) {
+                    response = "For accurate pricing and custom quotes, please contact Amir directly on WhatsApp!";
+                    showWhatsappBtn = true;
+                }
+                else if (lowerMsg.includes('service')) response = "Amir offers: Web Development, Machine Learning, Backend Solutions, WordPress Development, and UI/UX Design.";
+                else if (lowerMsg.includes('skill')) response = "Amir's skills: HTML, CSS, JavaScript, React, Python, PHP, MySQL, Machine Learning, TensorFlow, Figma, and more!";
+                else if (lowerMsg.includes('project')) response = "Amir has completed 25+ projects including House Price Prediction, Personal Portfolio, School Management System, E-Commerce Platform, and Mobile Apps.";
+                else if (lowerMsg.includes('contact') || lowerMsg.includes('email')) {
+                    response = "📧 Email: hamzaaaamir007@gmail.com | 📞 Phone: +92 344 7340060 | 📍 Pakistan, Peshawar";
+                    showWhatsappBtn = true;
+                }
+                else if (lowerMsg.includes('hello') || lowerMsg.includes('hi') || lowerMsg.includes('hey')) response = "Hello! How can I help you today? You can click the buttons below for quick answers!";
+                else if (lowerMsg.includes('website') || lowerMsg.includes('web development') || lowerMsg.includes('web design')) {
+                    response = "For website development pricing and custom quotes, please contact Amir on WhatsApp!";
+                    showWhatsappBtn = true;
+                }
+                
+                var responseHtml = '<div class="chatbot-message bot"><div class="message-content"><p>' + response + '</p></div></div>';
+                
+                // Add WhatsApp button if pricing-related question
+                if (showWhatsappBtn) {
+                    responseHtml += '<div class="chatbot-message bot"><div class="message-content"><a href="https://wa.me/923447340060?text=Hi%20Amir,%20I%20need%20a%20quote%20for%20your%20services" target="_blank" class="whatsapp-chat-btn"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a></div></div>';
+                }
+                
+                messages.innerHTML += responseHtml;
+                messages.scrollTop = messages.scrollHeight;
+                
+                // Add quick replies back
+                addQuickReplies();
+            }, 500);
+        }
+        
+        // Enter key to send
+        document.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') sendChatMessage();
+        });
+    </script>
+</body>
+</html>
