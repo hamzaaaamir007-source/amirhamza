@@ -243,7 +243,7 @@ const translations = {
         
         // Footer
         footerDesc: "Full Stack Developer & ML Engineer",
-        copyright: "© 2024 Amir Hamza. Crafted with passion.",
+        copyright: "© 2026 Amir Hamza. Built with code, powered by passion.",
         
         // Scroll
         scroll: "Scroll"
@@ -323,7 +323,7 @@ const translations = {
         
         // Footer
         footerDesc: "فول اسٹیک ڈویلپر اور ML انجینئر",
-        copyright: "© 2024 عامر حمزہ۔ محبت سے بنایا گیا۔"
+        copyright: "© 2026 عامر حمزہ۔ کوڈ سے بنایا، جوش سے چلایا۔"
     },
     ar: {
         // Navigation
@@ -394,7 +394,7 @@ const translations = {
         
         // Footer
         footerDesc: "مطور.full stack ومهندس ML",
-        copyright: "© 2024 أمير حمزة. مصمم بشغف."
+        copyright: "© 2026 أمير حمزة. مبني بالكود، مدفوع بالشغف."
     },
     fr: {
         home: "Accueil",
@@ -448,7 +448,7 @@ const translations = {
         
         // Footer
         footerDesc: "Développeur Full Stack & Ingénieur ML",
-        copyright: "© 2024 Amir Hamza. Créé avec passion."
+        copyright: "© 2026 Amir Hamza. Built with code, powered by passion."
     },
     es: {
         home: "Inicio",
@@ -502,7 +502,7 @@ const translations = {
         
         // Footer
         footerDesc: "Desarrollador Full Stack & Ingeniero ML",
-        copyright: "© 2024 Amir Hamza. Creado con pasión."
+        copyright: "© 2026 Amir Hamza. Built with code, powered by passion."
     }
 };
 
