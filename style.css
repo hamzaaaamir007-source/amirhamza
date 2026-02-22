@@ -524,6 +524,30 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(180deg);
 }
 
+/* Brand Logo Icon */
+.navbar-brand .brand-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: linear-gradient(135deg, #0ea5e9 0%, #8b5cf6 100%);
+    border-radius: 12px;
+    margin-right: 10px;
+    transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
+}
+
+.navbar-brand .brand-icon i {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar-brand:hover .brand-icon {
+    transform: scale(1.1) rotate(-3deg);
+    box-shadow: 0 8px 25px rgba(14, 165, 233, 0.5);
+}
+
 .nav-link {
     color: var(--text-light) !important;
     font-weight: 500;
@@ -2351,6 +2375,18 @@ footer {
     
     /* Navbar mobile */
     .navbar-brand { font-size: 1.5rem; }
+    
+    .navbar-brand .brand-icon {
+        width: 36px;
+        height: 36px;
+        margin-right: 6px;
+        font-size: 14px;
+        border-radius: 10px;
+    }
+    
+    .navbar-brand .brand-icon i {
+        font-size: 18px;
+    }
     
     .nav-cta-btn {
         padding: 8px 20px !important;
